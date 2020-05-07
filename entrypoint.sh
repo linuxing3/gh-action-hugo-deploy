@@ -22,5 +22,6 @@ cd ${DEST_DIR}
 git config user.name "${GITHUB_ACTOR}"
 git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 git add --all
+# FIXME: Some times will exit without commit and push
 git commit -m "Automated deployment"
 git push
