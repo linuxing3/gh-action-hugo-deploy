@@ -8,7 +8,7 @@ git clone --depth=1 --single-branch --branch source \
   ${DEST_DIR}
 
 cd ${DEST_DIR}/
-hugo ${INPUT_HUGO_ARGS} -D
+hugo ${INPUT_HUGO_ARGS}
 
 cd ${INPUT_BUILD_DIR}/
 git init
