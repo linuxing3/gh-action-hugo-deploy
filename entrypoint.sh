@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 DEST_DIR="${HOME}/dest_repo"
 DEST_URL="https://x-access-token:${INPUT_DESTINATION_TOKEN}@github.com/${INPUT_DESTINATION_REPO}.git"
 TS=$(date +"%Y%m%d %H:%M")
