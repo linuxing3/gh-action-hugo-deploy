@@ -5,7 +5,7 @@ set -e
 DEST_DIR="${HOME}/dest_repo"
 DEST_URL="https://x-access-token:${INPUT_DESTINATION_TOKEN}@github.com/${INPUT_DESTINATION_REPO}.git"
 
-git clone --depth=1 --single-branch --branch master \
+git clone --depth=1 --single-branch --branch main \
   ${DEST_URL} \
   ${DEST_DIR}
 
